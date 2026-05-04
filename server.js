@@ -3,7 +3,7 @@ import cors from 'cors';
 //const express=require(express)
 import express from 'express';
 //const productsRouter=require('./products')
-//import productsRouter from productsRouter;
+import productsRouter from productsRouter;
 const app=express()
 app.use(cors({
     origin:['http://localhost:5500','http://127.0.0.1:5500']
